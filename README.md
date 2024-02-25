@@ -51,10 +51,13 @@
   <ol>
     <li><strong>Clone the Repository</strong>: Clone this repository to your local machine using the following command:<br>
       <code>git clone git remote add origin https://github.com/harpreet-03/Projects.git</code></li>
+    <br>
     <li><strong>Compile and Run</strong>: Navigate to the project directory and compile the <code>Car_rental_system.java</code> file. Then, run the compiled program:<br>
       <code>javac Car_rental_system.java</code><br>
       <code>java Car_rental_system</code></li>
+    <br>
     <li><strong>Interact with the System</strong>: Follow the prompts displayed on the console to interact with the system. Choose options from the menu to perform various actions such as listing available cars, viewing details, renting, returning, or exiting the system.</li>
+    <br>
     <li><strong>Enjoy Renting Cars</strong>: Use the system to efficiently manage car rentals, whether you're a rental agency or an individual looking to rent a vehicle.</li>
   </ol>
 
