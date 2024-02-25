@@ -3,7 +3,6 @@
 
   <p>This Java-based Car Rental System is designed to manage the rental process for a fleet of cars. It provides functionalities such as listing available cars, viewing car details, renting a car, returning a car, and exiting the system.</p>
 
-<br>
   <h2>Features</h2>
 <ul>
   <li>
@@ -13,6 +12,7 @@
       <li>Easily identify available options for customers.</li>
     </ul>
   </li>
+  <br>
   <li>
     <strong>View Car Details</strong>: Access detailed information about a specific car.
     <ul>
@@ -20,6 +20,7 @@
       <li>Make informed decisions based on detailed car specifications.</li>
     </ul>
   </li>
+  <br>
   <li>
     <strong>Rent a Car</strong>: Rent a car by specifying its unique ID.
     <ul>
@@ -27,6 +28,7 @@
       <li>If the chosen car is available, it will be marked as rented.</li>
     </ul>
   </li>
+  <br>
   <li>
     <strong>Return a Car</strong>: Return a rented car by providing its ID.
     <ul>
@@ -34,6 +36,7 @@
       <li>If the car is currently rented, it will be marked as available for rent again.</li>
     </ul>
   </li>
+  <br>
   <li>
     <strong>Exit System</strong>: Gracefully exit the car rental system.
     <ul>
