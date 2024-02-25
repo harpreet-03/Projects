@@ -66,8 +66,8 @@
   </ol>
 
   <h2>License</h2>
-  <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+  <p>This project is licensed under the MIT License. See the <a href="">LICENSE</a> file for details.</p>
 
-  <h2>Author</h2>
-  <p><a href=https://github.com/harpreet-03/Projects-Java.git>Your Name</a></p>
+  <h2><i>HARPREET SINGH</i></h2>
+  <p><a href=https://github.com/harpreet-03/Projects-Java.git>Xcalibur</a></p>
 
