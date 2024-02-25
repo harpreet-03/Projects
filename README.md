@@ -3,7 +3,7 @@
 
   <p>This Java-based Car Rental System is designed to manage the rental process for a fleet of cars. It provides functionalities such as listing available cars, viewing car details, renting a car, returning a car, and exiting the system.</p>
 
-
+<br>
   <h2>Features</h2>
 <ul>
   <li>
