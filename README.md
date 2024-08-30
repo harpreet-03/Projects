@@ -1,79 +1,93 @@
+# Project Portfolio
 
-  <h1>Car Rental System</h1>
+This repository contains three major projects developed as part of my coursework in Computer Science and Engineering. Each project is designed to demonstrate specific skills and concepts in software development, including data structures, algorithms, user interfaces, and object-oriented programming.
 
-  <p>This Java-based Car Rental System is designed to manage the rental process for a fleet of cars. It provides functionalities such as listing available cars, viewing car details, renting a car, returning a car, and exiting the system.</p>
+## Table of Contents
+1. [Car Rental System](#car-rental-system)
+2. [Menu Management System](#menu-management-system)
+3. [Sorting Visualizer](#sorting-visualizer)
 
-  <h2>Features</h2>
-<ul>
-  <li>
-    <strong>List Available Cars</strong>: View a list of cars that are currently available for rent.
-    <ul>
-      <li>Quickly see which cars are ready for immediate rental.</li>
-      <li>Easily identify available options for customers.</li>
-    </ul>
-  </li>
-  <br>
-  <li>
-    <strong>View Car Details</strong>: Access detailed information about a specific car.
-    <ul>
-      <li>Retrieve comprehensive details including make, model, year, type, fuel type, transmission type, mileage, daily rental rate, availability status, and location.</li>
-      <li>Make informed decisions based on detailed car specifications.</li>
-    </ul>
-  </li>
-  <br>
-  <li>
-    <strong>Rent a Car</strong>: Rent a car by specifying its unique ID.
-    <ul>
-      <li>Select a car for rental based on its ID.</li>
-      <li>If the chosen car is available, it will be marked as rented.</li>
-    </ul>
-  </li>
-  <br>
-  <li>
-    <strong>Return a Car</strong>: Return a rented car by providing its ID.
-    <ul>
-      <li>Efficiently manage the return process by specifying the ID of the rented car.</li>
-      <li>If the car is currently rented, it will be marked as available for rent again.</li>
-    </ul>
-  </li>
-  <br>
-  <li>
-    <strong>Exit System</strong>: Gracefully exit the car rental system.
-    <ul>
-      <li>Terminate the program in a controlled manner.</li>
-      <li>Ensure smooth operation and user experience.</li>
-    </ul>
-  </li>
-</ul>
+---
+
+## Car Rental System
+
+### Introduction
+The Car Rental System is a console-based application that allows users to manage a car rental service. It includes features for booking cars, returning them, and managing customer and vehicle information.
+
+### Features
+- **Customer Management**: Add, edit, and delete customer information.
+- **Vehicle Management**: Add, edit, and delete vehicle information.
+- **Booking System**: Rent out vehicles to customers and track rental history.
+- **Return System**: Manage the return of vehicles and calculate rental fees.
+
+### Technologies Used
+- **Java**: The application is developed using Java, utilizing its object-oriented programming capabilities.
+- **File I/O**: Data persistence is handled using file input/output for storing customer and vehicle data.
+
+### Setup Instructions
+1. Clone the repository to your local machine.
+2. Open the project in your preferred Java IDE.
+3. Compile and run the `CarRentalSystem.java` file to start the application.
+
+### Usage
+- The application presents a menu-driven interface where users can navigate through different options like booking a car, returning a car, and managing customer/vehicle details.
+- Follow on-screen prompts to perform desired actions.
+
+---
+
+## Menu Management System
+
+### Introduction
+The Menu Management System is a console-based application that allows restaurants to manage their menu offerings. It includes features for adding, updating, and deleting menu items, as well as generating daily specials.
+
+### Features
+- **Menu Item Management**: Add, edit, and delete menu items.
+- **Daily Specials**: Generate and manage daily specials based on available items.
+- **Order Management**: Track orders and calculate total bills.
+
+### Technologies Used
+- **Java**: The application is built in Java, emphasizing modular programming and data handling.
+- **Collections Framework**: Utilizes Java's Collections Framework to manage menu items and orders.
+
+### Setup Instructions
+1. Clone the repository to your local machine.
+2. Open the project in your preferred Java IDE.
+3. Compile and run the `MenuManagementSystem.java` file to start the application.
+
+### Usage
+- Navigate through the menu-driven interface to manage menu items, create specials, and process orders.
+- The system provides clear instructions and options for each action.
+
+---
+
+## Sorting Visualizer
+
+### Introduction
+The Sorting Visualizer is an interactive tool designed to help users understand how various sorting algorithms work. The application visually demonstrates the sorting process step by step for algorithms like Bubble Sort, Quick Sort, Merge Sort, etc.
+
+### Features
+- **Visual Sorting**: See the step-by-step execution of sorting algorithms.
+- **Multiple Algorithms**: Supports a variety of sorting algorithms.
+- **Customization**: Users can customize the input data to see how different algorithms perform on various datasets.
+
+### Technologies Used
+- **Java**: Core logic and algorithms are implemented in Java.
+- **JavaFX/Swing**: Used for creating the graphical user interface (GUI) to visualize the sorting process.
+
+### Setup Instructions
+1. Clone the repository to your local machine.
+2. Open the project in your preferred Java IDE.
+3. Compile and run the `SortingVisualizer.java` file to launch the visualizer.
+
+### Usage
+- Select a sorting algorithm from the interface.
+- Watch the visualization of the sorting process in real-time.
+
+---
+
+## Contributing
+Contributions are welcome! Feel free to fork the repository and submit pull requests for new features, bug fixes, or improvements.
 
 
-  <h2>How to Use</h2>
-  <ol>
-    <li><strong>Clone the Repository</strong>: Clone this repository to your local machine using the following command:<br>
-      <code>git clone git remote add origin https://github.com/harpreet-03/Projects.git</code></li>
-    <br>
-    <li><strong>Compile and Run</strong>: Navigate to the project directory and compile the <code>Car_rental_system.java</code> file. Then, run the compiled program:<br>
-      <code>javac Car_rental_system.java</code><br>
-      <code>java Car_rental_system</code></li>
-    <br>
-    <li><strong>Interact with the System</strong>: Follow the prompts displayed on the console to interact with the system. Choose options from the menu to perform various actions such as listing available cars, viewing details, renting, returning, or exiting the system.</li>
-    <br>
-    <li><strong>Enjoy Renting Cars</strong>: Use the system to efficiently manage car rentals, whether you're a rental agency or an individual looking to rent a vehicle.</li>
-  </ol>
-
-  <h2>Contributing</h2>
-  <p>Contributions to this project are welcome and encouraged! To contribute, follow these steps:</p>
-  <ol>
-    <li>Fork the repository to your GitHub account.</li>
-    <li>Create a new branch for your feature or bug fix.</li>
-    <li>Implement your changes and ensure that the code compiles and runs correctly.</li>
-    <li>Commit your changes and push them to your fork.</li>
-    <li>Submit a pull request to the main repository, explaining the changes you've made.</li>
-  </ol>
-
-  <h2>License</h2>
-  <p>This project is licensed under the MIT License. See the <a href="">LICENSE</a> file for details.</p>
-
-
-  <p><a href=https://github.com/harpreet-03>Harpreet Singh (Xcalibur)</a></p>
+<p><a href=https://github.com/harpreet-03>Harpreet Singh (Xcalibur)</a></p>
 
