@@ -1,6 +1,6 @@
 import java.util.*;
 
-/* CAR RENTAL SYSTEM */
+/* CAR RENTAL SYSTEM  - JAVA OOPS*/
 
 public class Car_rental_system {
     static Scanner scanner = new Scanner(System.in);
