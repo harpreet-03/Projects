@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class BinarySearchTree {
     class Node {
@@ -8,7 +8,7 @@ public class BinarySearchTree {
         public Node(int item) {
             key = item;
             left = right = null;
-            
+
         }
     }
 
@@ -55,7 +55,8 @@ public class BinarySearchTree {
     }
 
     Node deleteRec(Node root, int key) {
-        if (root == null) return root;
+        if (root == null)
+            return root;
 
         if (key < root.key)
             root.left = deleteRec(root.left, key);
@@ -68,7 +69,8 @@ public class BinarySearchTree {
             else if (root.right == null)
                 return root.left;
 
-            // Node with two children: Get the inorder successor (smallest in the right subtree)
+            // Node with two children: Get the inorder successor (smallest in the right
+            // subtree)
             root.key = minValue(root.right);
 
             // Delete the inorder successor
@@ -131,37 +133,49 @@ public class BinarySearchTree {
 
     public static void main(String[] args) {
         BinarySearchTree bst = new BinarySearchTree();
+        Scanner scanner = new Scanner(System.in);
+        int choice, value;
 
-        bst.insert(50);
-        bst.insert(30);
-        bst.insert(20);
-        bst.insert(40);
-        bst.insert(70);
-        bst.insert(60);
-        bst.insert(80);
+        while (true) {
+            System.out.println("\n1. Insert");
+            System.out.println("2. Search");
+            System.out.println("3. Delete");
+            System.out.println("4. Inorder Traversal");
+            System.out.println("5. Exit");
+            System.out.print("Enter your choice: ");
+            choice = scanner.nextInt();
 
-        System.out.println("Inorder traversal:");
-        bst.inorder();
-
-        System.out.println("Preorder traversal:");
-        bst.preorder();
-
-        System.out.println("Postorder traversal:");
-        bst.postorder();
-
-        System.out.println("\nAfter deleting 20:");
-        bst.deleteKey(20);
-        bst.inorder();
-
-        System.out.println("\nAfter deleting 30:");
-        bst.deleteKey(30);
-        bst.inorder();
-
-        System.out.println("\nAfter deleting 50:");
-        bst.deleteKey(50);
-        bst.inorder();
-
-        int key = 60;
-        System.out.println("\nSearch for " + key + ": " + (bst.search(bst.root, key) != null ? "Found" : "Not Found"));
+            switch (choice) {
+                case 1:
+                    System.out.print("Enter value to insert: ");
+                    value = scanner.nextInt();
+                    bst.insert(value);
+                    break;
+                case 2:
+                    System.out.print("Enter value to search: ");
+                    value = scanner.nextInt();
+                    if (bst.search(bst.root, value) != null) {
+                        System.out.println(value + " found in the BST.");
+                    } else {
+                        System.out.println(value + " not found in the BST.");
+                    }
+                    break;
+                case 3:
+                    System.out.print("Enter value to delete: ");
+                    value = scanner.nextInt();
+                    bst.deleteKey(value);
+                    break;
+                case 4:
+                    System.out.println("Inorder Traversal:");
+                    bst.inorder() ;
+                   1
+                    break;
+                case 5:
+                    scanner.close();
+                    return;
+                default:
+                    System.out.println("Invalid choice. Please try again.");
+            }
+        }
     }
 }
