@@ -10,20 +10,24 @@ This repository contains three major projects developed as part of my coursework
 
 ---
 
-## Car Rental System
+# Car Rental System
 
-### Introduction
-The Car Rental System is a console-based application that allows users to manage a car rental service. It includes features for booking cars, returning them, and managing customer and vehicle information.
+## Introduction
+The Car Rental System is a user-friendly desktop application with a graphical user interface (GUI) built using Java Swing. The system allows users to manage a car rental service efficiently, providing an intuitive interface for booking cars, returning them, and managing customer and vehicle information.
 
-### Features
-- **Customer Management**: Add, edit, and delete customer information.
-- **Vehicle Management**: Add, edit, and delete vehicle information.
-- **Booking System**: Rent out vehicles to customers and track rental history.
-- **Return System**: Manage the return of vehicles and calculate rental fees.
+## Features
+- **Customer Management**: Add, edit, and delete customer information through a user-friendly interface.
+- **Vehicle Management**: Add new cars explicitly via the application interface and manage car details easily.
+- **Booking System**: Rent out vehicles to customers and track rental history seamlessly through interactive dialogs.
+- **Return System**: Manage the return of vehicles and calculate rental fees with ease.
+- **Dynamic UI**: A visually appealing interface that makes the system easy to use with proper spacing, padding, and intuitive layout.
 
-### Technologies Used
-- **Java**: The application is developed using Java, utilizing its object-oriented programming capabilities.
-- **File I/O**: Data persistence is handled using file input/output for storing customer and vehicle data.
+## Technologies Used
+- **Java**: Developed using Java with object-oriented principles for modularity and maintainability.
+- **Java Swing**: For creating an interactive and visually appealing graphical user interface (GUI).
+- **File I/O**: Data persistence is handled using file input/output to store customer and vehicle data.
+
+
 
 ### Setup Instructions
 1. Clone the repository to your local machine.
