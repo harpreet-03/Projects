@@ -6,6 +6,7 @@ This repository contains three major projects developed as part of my coursework
 1. [Car Rental System](#car-rental-system)
 2. [Menu Management System](#menu-management-system)
 3. [Sorting Visualizer](#sorting-visualizer)
+4. [Binary Search Tree ](#Binary-search-tree)
 
 ---
 
